@@ -1,0 +1,93 @@
+{% extends 'form_base.html' %}
+{% load staticfiles %}
+{% block title %}天天生鲜登陆系统{% endblock title %}
+
+{% block content %}
+    <div class="page login-page">
+        <div class="container d-flex align-items-center">
+            <div class="form-holder has-shadow">
+                <div class="row">
+                    <!-- Logo & Information Panel-->
+                    <div class="col-lg-6">
+                        <div class="info d-flex align-items-center">
+                            <div class="content">
+                                <div class="logo">
+                                    <h1>欢迎登录天天生鲜商城</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Form Panel    -->
+                    <div class="col-lg-6 bg-white">
+                        <div class="form d-flex align-items-center">
+                            <div class="content">
+                                <form method="post"  class="form-validate" id="loginFrom">
+                                    <div class="form-group">
+                                        <input id="login-username" type="text" name="username" required
+                                               data-msg="请输入用户名" placeholder="用户名" class="input-material" value="{{ username }}">
+                                        <div id="login-username-error" class="is-invalid invalid-feedback"
+                                             style="display: block;">{{ email_msg }}</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="login-password" type="password" name="password" required
+                                               data-msg="请输入密码" placeholder="密码" class="input-material">
+                                        <div id="login-username-error" class="is-invalid invalid-feedback"
+                                             style="display: block;">{{ user_msg }}</div>
+                                    </div>
+                                    <button id="login" type="submit" class="btn btn-primary">登录</button>
+                                    <div style="margin-top: -40px;">
+
+                                        <div class="custom-control custom-checkbox " style="float: right;">
+                                            <input type="checkbox" class="custom-control-input" id="check2">
+                                            <label class="custom-control-label" for="check2">自动登录</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox " style="float: right;">
+                                            <input type="checkbox" class="custom-control-input" id="check1" name="remember" {{ checked }}>
+                                            <label class="custom-control-label" for="check1">记住用户名&nbsp;&nbsp;</label>
+                                        </div>
+                                    </div>
+                                    {% csrf_token %}
+                                </form>
+                                <br/>
+                                <small>没有账号?</small>
+                                <a href="{% url 'register' %}" class="signup">&nbsp;注册</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript files-->
+{% endblock content %}
+{% block custom_js %}
+    <script src="https://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+    <script src="{% static 'vendor/jquery-validation/jquery.validate.min.js' %}"></script><!--表单验证-->
+    <!-- Main File-->
+    <script src="{% static 'js/front.js' %}"></script>
+    <script>
+        $(function () {
+            /*判断上次是否勾选记住密码和自动登录*/
+            var check1s = localStorage.getItem("check1");
+            var check2s = localStorage.getItem("check2");
+            var oldName = localStorage.getItem("userName");
+            var oldPass = localStorage.getItem("passWord");
+            if (check1s == "true") {
+                $("#login-username").val(oldName);
+                $("#login-password").val(oldPass);
+                $("#check1").prop('checked', true);
+            } else {
+                $("#login-username").val('');
+                $("#login-password").val('');
+                $("#check1").prop('checked', false);
+            }
+            if (check2s == "true") {
+                $("#check2").prop('checked', true);
+                $("#loginFrom").submit();
+                //location="https://www.baidu.com?userName="+oldName+"&passWord="+oldPass;//添加退出当前账号功能
+            } else {
+                $("#check2").prop('checked', false);
+            }
+        })
+    </script>
+{% endblock custom_js %}

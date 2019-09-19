@@ -1,0 +1,169 @@
+{% extends 'form_base.html' %}
+{% load staticfiles %}
+{% block title %}
+    天天生鲜注册系统
+{% endblock %}
+<!-- Bootstrap CSS-->
+{% block custom_css %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+{% endblock custom_css %}
+{% block content %}
+    <div class="page login-page">
+        <div class="container d-flex align-items-center">
+            <div class="form-holder has-shadow">
+                <div class="row">
+                    <!-- Logo & Information Panel-->
+                    <div class="col-lg-6">
+                        <div class="info d-flex align-items-center">
+                            <div class="content">
+                                <div class="logo">
+                                    <h1>欢迎注册</h1>
+                                </div>
+                                <p>还没有账号？来开启你的第一步吧</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Form Panel    -->
+                    <div class="col-lg-6 bg-white">
+                        <form action="{% url 'register' %}" method="post">
+                            <div class="form d-flex align-items-center">
+                                <div class="content">
+                                    <div class="form-group">
+                                        <input id="register-username" class="input-material {% if register_form.errors.registerUsername %}error{% endif %}" type="text"
+                                               name="registerUsername" placeholder="请输入用户名">
+                                    <div id="login-username-error" class="is-invalid invalid-feedback"
+                                             style="display: block;">{{ user_msg }}</div>
+                                        <div class="invalid-feedback">
+                                            用户名必须在2~10位之间
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="register-password" class="input-material {% if register_form.errors.registerPassword %}error{% endif %}" type="password"
+                                               name="registerPassword" placeholder="请输入密码">
+                                        <div class="invalid-feedback">
+                                            密码必须在6~10位之间
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="register-passwords" class="input-material {% if register_form.errors.registerPassword %}error{% endif %}" type="password"
+                                               name="registerPasswords" placeholder="确认密码">
+                                        <div class="invalid-feedback">
+                                            两次密码必须相同 且在6~10位之间
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="register-email" class="input-material {% if register_form.errors.registeremail %}error{% endif %}" type="email"
+                                               name="registeremail" placeholder="邮箱">
+                                    <div id="login-username-error" class="is-invalid invalid-feedback"
+                                             style="display: block;">{{ email_msg }}</div>
+                                        <div class="invalid-feedback">
+                                            邮箱格式不正确
+                                        </div>
+                                    </div>
+                                    <div class="form-group captcha1 {% if register_form.errors.captcha %} error {% endif %}">
+                                        {{ register_form.captcha }}
+                                    </div>
+                                    <div class="form-group">
+                                        <button id="regbtn" type="submit" name="registerSubmit" class="btn btn-primary">
+                                            注册
+                                        </button>
+                                    </div>
+                                    <small>已有账号?</small>
+                                    <a href="{% url 'login' %}" class="signup">&nbsp;登录</a>
+                                </div>
+                            </div>
+                            {% csrf_token %}
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+<!-- JavaScript files-->
+{% block custom_js %}
+    <script src="https://www.jq22.com/jquery/bootstrap-4.2.1.js"></script>
+    <script>
+        document.getElementById("id_captcha_1").setAttribute("placeholder", "验证码");
+    </script>
+    <script>
+        $('.captcha').click(function () {
+            $.getJSON("/captcha/refresh/", function (result) {
+                $('.captcha').attr('src', result['image_url']);
+                $('#id_captcha_0').val(result['key'])
+            });
+
+
+        });
+        $(function () {
+            /*错误class  form-control is-invalid
+             正确class  form-control is-valid*/
+            var flagName = false;
+            var flagPas = false;
+            var flagPass = false;
+            /*验证用户名*/
+            var name, passWord, passWords;
+            $("#register-username").change(function () {
+                name = $("#register-username").val();
+                if (name.length < 2 || name.length > 10) {
+                    $("#register-username").removeClass("form-control is-valid")
+                    $("#register-username").addClass("form-control is-invalid");
+                    flagName = false;
+                } else {
+                    $("#register-username").removeClass("form-control is-invalid")
+                    $("#register-username").addClass("form-control is-valid");
+                    flagName = true;
+                }
+            })
+
+            /*验证邮箱*/
+            $("#register-email").change(function () {
+                name = $("#register-email").val();
+                var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+                if (!reg.test(name)) {
+                    $("#register-email").removeClass("form-control is-valid")
+                    $("#register-email").addClass("form-control is-invalid");
+                    flagName = false;
+                } else {
+                    $("#register-email").removeClass("form-control is-invalid")
+                    $("#register-email").addClass("form-control is-valid");
+                    flagName = true;
+                }
+            })
+
+            /*验证密码*/
+            $("#register-password").change(function () {
+                passWord = $("#register-password").val();
+                if (passWord.length < 6 || passWord.length > 18) {
+                    $("#register-password").removeClass("form-control is-valid")
+                    $("#register-password").addClass("form-control is-invalid");
+                    flagPas = false;
+                } else {
+                    $("#register-password").removeClass("form-control is-invalid")
+                    $("#register-password").addClass("form-control is-valid");
+                    flagPas = true;
+                }
+            })
+            /*验证确认密码*/
+            $("#register-passwords").change(function () {
+                passWords = $("#register-passwords").val();
+                if ((passWord != passWords) || (passWords.length < 6 || passWords.length > 18)) {
+                    $("#register-passwords").removeClass("form-control is-valid")
+                    $("#register-passwords").addClass("form-control is-invalid");
+                    flagPass = false;
+                } else {
+                    $("#register-passwords").removeClass("form-control is-invalid")
+                    $("#register-passwords").addClass("form-control is-valid");
+                    flagPass = true;
+                }
+            })
+
+        })
+    </script>
+    <script>
+    if ({{ msg }}!=""){
+        alert({{ msg }})
+    }
+    </script>
+{% endblock custom_js %}
