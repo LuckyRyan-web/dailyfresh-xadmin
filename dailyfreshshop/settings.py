@@ -195,10 +195,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'upload/')#这个是在浏览器上访问该
 #编写邮件服务器的发送者
 EMAIL_HOST = "smtp.qq.com"
 EMAIL_PORT = 25
-EMAIL_HOST_USER = "373005226@qq.com"
-EMAIL_HOST_PASSWORD = "ftipetaoehhobhbh"
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
 EMAIL_USE_TLS= False
-EMAIL_FROM = "373005226@qq.com"
+EMAIL_FROM = ""
 
 
 # 配置登录url地址
