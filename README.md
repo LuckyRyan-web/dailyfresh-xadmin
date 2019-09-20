@@ -41,7 +41,7 @@
 
 [富文本编辑器的使用2](https://github.com/zhangfisher/DjangoUeditor)
 
-[xadmin集成UEditor]([)https://blog.csdn.net/wgpython/article/details/79585205)
+[xadmin集成UEditor](https://blog.csdn.net/wgpython/article/details/79585205)
 
 [阿里云centos服务器安装python3.6](https://www.cnblogs.com/charles8866/p/8366695.html)
 
