@@ -4,17 +4,17 @@
 
 **项目截图：**
 
-![1568988886523](C:\Users\LY\Pictures\博客照片\截图1.png)
+![截图1](https://txy-tc-ly-1256104767.cos.ap-guangzhou.myqcloud.com/%E6%88%AA%E5%9B%BE1.png)
 
 
 
-![1568988929485](C:\Users\LY\Pictures\博客照片\截图2.png)
+![截图2](https://txy-tc-ly-1256104767.cos.ap-guangzhou.myqcloud.com/%E6%88%AA%E5%9B%BE2.png)
 
-![1568989129928](C:\Users\LY\Pictures\博客照片\截图3.png)
+![截图3](https://txy-tc-ly-1256104767.cos.ap-guangzhou.myqcloud.com/%E6%88%AA%E5%9B%BE3.png)
 
-![1568989167308](C:\Users\LY\Pictures\博客照片\截图4.png)
+![截图4](https://txy-tc-ly-1256104767.cos.ap-guangzhou.myqcloud.com/%E6%88%AA%E5%9B%BE4.png)
 
-![1568989391782](C:\Users\LY\Pictures\博客照片\截图5.png)
+![截图5](https://txy-tc-ly-1256104767.cos.ap-guangzhou.myqcloud.com/%E6%88%AA%E5%9B%BE5.png)
 
 ## 项目架构
 
@@ -128,6 +128,8 @@ ALLOWED_HOSTS=[‘*’]
 ​	这个项目是我看完视频后自己重新写的一个项目，重写了大部分逻辑，这个项目内部逻辑很简单，但是前端方面相比较就难了。这个项目前端页面不利于二次开发，也不好看，所以我打算重构一个全新的前端和移动端作为一个完整的项目。
 
 ​	这个项目我重写了大部分逻辑，还留下一些小Bug，因为最近没什么时间改进这个项目，所以先留下一个坑，等我有空了再去改
+
+​	为什么不部署到网上呢......因为服务器好贵，部署一天一顿恰饭钱就没了...
 
 ​	如果对此项目有什么疑问或者想要知道我修改逻辑的地方联系我的邮箱：ly163qfxmn@163.com
 
