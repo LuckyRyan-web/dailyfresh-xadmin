@@ -1,8 +1,11 @@
 __author__ = 'LY'
 __date__ = '2019/9/13 10:22'
 from xadmin import views
+from django.core.cache import cache
 from .models import *
 import xadmin
+
+
 
 class GoodsTypeAdmin(object):
     list_display = ['name', 'logo', 'image']
@@ -21,6 +24,16 @@ class GoodsAdmin(object):
     search_fields = ['name', 'detail']
     list_filter = ['name', 'detail']
     style_fields = {"detail": "ueditor"}
+
+    # def save_models(self):
+    #     from celery_tasks.tasks import generate_static_index_html
+    #     generate_static_index_html.delay()
+    #     cache.delete('index_page_data')
+    #
+    # def delete_model(self):
+    #     from celery_tasks.tasks import generate_static_index_html
+    #     generate_static_index_html.delay()
+    #     cache.delete('index_page_data')
 
 
 class GoodsImageAdmin(object):

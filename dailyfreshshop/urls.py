@@ -15,17 +15,17 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from user.views import *
-from goods.views import Index
+from goods.views import IndexView
 import xadmin
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^ueditor/', include('DjangoUeditor.urls')),  # 富文本编辑器
     url(r'^captcha/', include('captcha.urls')),         # 验证码
+    url(r'^index/$|index.html/$|^$', IndexView.as_view(), name='index'),
     url(r'^active/(?P<token>.*)$', AciveUserView.as_view(), name='active'),  # 用户激活
     url(r'^user/',include('user.urls',namespace='user')),
     url(r'^register/', RegisterView.as_view(), name='register'),
     url(r'^login/', LoginView.as_view(), name='login'),
     url(r'^logout/', LogoutView.as_view(), name='logout'),
-    url(r'^index/$|index.html/$|^$', Index.as_view(), name='index'),
 ]
