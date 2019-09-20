@@ -2,671 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a50943-8f0c-4749-a6b6-c79c0f91c1d3" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/pax_global_header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/CONTRIBUTORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/INSTALL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/PKG-INFO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/apache2/mod_Ruwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/apache2/mod_proxy_uwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/apache2/mod_uwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/attach.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/bin/uwsgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/all.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/asyncio.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/base.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/cgi.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/core.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/coroae.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/coverity.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/default.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/django.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/embedded.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/erlang.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/gccgo.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/gevent.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/glusterfs.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/gridfs.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/jwsgi.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/lib.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/lua.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/luap.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/minimal.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/modular.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/mono.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/nolang.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/package.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/php.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/plonly.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/ppa.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/psgi.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pyerl.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pylua.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pyonly.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pypy.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pypyonly.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pyring.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pyuwsgi.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pyuwsginossl.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/rack.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/rados.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/rbonly.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/ring.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/ruby2.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/servlet.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/travis.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/unbit.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/unbitstaff.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/uwsgi.it.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/v8.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/Uwsgi.pm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/binder.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/centos_init_script" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/cgi_python.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/cryptologger.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/emperormon.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/fdconf.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/graphite_uwsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/launchd/it.unbit.uwsgi.emperor.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/launchd/it.unbit.uwsgi.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/loadapp.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/pypy/uwsgi_pypy_greenlets.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/pyuwsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/runuwsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/securesubscribe.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/spoolqueue/producer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/spoolqueue/tasks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/spoolqueue/tasksconsumer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/subscribe.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/twuwsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/upstart/emperor.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/upstart/uwsgi.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/upython" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/urack.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi-cache-monitor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi.erl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi_client.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi_dynamic_client.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgisubscribers.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/xinetd_uwsgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/alarm.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/async.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/buffer.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/cache.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/chunked.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/clang_fake.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/clock.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/config.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/cookie.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/cron.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/daemons.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/emperor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/errors.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/event.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/exceptions.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/fifo.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/fsmon.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/gateway.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/hash.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/hooks.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/ini.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/init.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/io.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/json.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/legion.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/lock.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/logging" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/logging." afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/logging.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/loop.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master_checks.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master_events.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master_utils.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/metrics.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/mount.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/mule.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/notify.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/offload.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/plugins.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/plugins_builder.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/progress.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/protocol.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/querystring.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/queue.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/rb_timers.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/reader.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/regexp.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/routing.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/rpc.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/sendfile.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/setup_utils.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/sharedarea.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/signal.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/skel.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/snmp.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/socket.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/spooler.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/ssl.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/static.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/stats.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/storage.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/strings.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/subscription.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/timebomb.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/transformations.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/utils.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/uwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/websockets.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/writer.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/xmlconf.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/yaml.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/zeus.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/zlib.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config17.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config2.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config2.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config30.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/corostream.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/debug.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/fibers.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/fibers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/flaskpost.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/heavytest.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/heavytest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/info_uwsgi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/logic.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/mega.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/mjpeg_stream.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/mojoapp.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/multi.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/multi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/multiapp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/protected.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/router.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/simple_app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/simple_app_wsgi2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/simple_logger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/sites.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/sputnik.ws" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/staticfilesnmp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/taskqueue.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgirouter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgirouter2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgirouter3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgirouter4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgirouter5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgistatus.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/welcome.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/welcome.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/welcome3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/werkzeug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/werkzeug.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/werkzeug_strict.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/xmlindex-html.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/xmlindex.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/zmqgevent.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/ext/uwsgi/extconf.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/install.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/lib/linux_ns.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/lib/netlink.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/lib/sun_fixes.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/logo_uWSGI.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/logo_uWSGI.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/mongrel2-uwsgi.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/airbrake/airbrake_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/airbrake/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_curl/alarm_curl_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_curl/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_speech/alarm_speech.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_speech/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_xmpp/alarm_xmpp_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_xmpp/gloox.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_xmpp/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/asyncio/asyncio.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/asyncio/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cache/cache.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cache/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/carbon/carbon.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/carbon/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cgi/cgi_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cgi/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_backlog2/cheaper_backlog2.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_backlog2/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_busyness/cheaper_busyness.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_busyness/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_monotonic/clock_monotonic.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_monotonic/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_realtime/clock_realtime.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_realtime/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/corerouter.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/cr.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/cr_common.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/cr_map.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/coroae/coroae.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/coroae/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cplusplus/base.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cplusplus/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cplusplus/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/curl_cron/curl_cron.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/curl_cron/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dumbloop/dumb.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dumbloop/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dummy/dummy.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dummy/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/echo/echo_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/echo/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_amqp/amqp.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_amqp/emperor_amqp.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_amqp/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_mongodb/emperor_mongodb.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_mongodb/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_mongodb/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_pg/emperor_pg.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_pg/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_zeromq/emperor_zeromq.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_zeromq/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/example/example_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/example/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/exception_log/exception_log.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/exception_log/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/fastrouter/fastrouter.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/fastrouter/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/fiber/fiber.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/fiber/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/forkptyrouter/forkptyrouter.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/forkptyrouter/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gccgo/gccgo_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gccgo/uwsgi.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gccgo/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/geoip/geoip.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/geoip/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/gevent.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/gevent.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/hooks.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/glusterfs/glusterfs.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/glusterfs/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/graylog2/graylog2_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/graylog2/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/greenlet/greenlet.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/greenlet/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gridfs/gridfs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gridfs/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gridfs/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/common.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/http.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/https.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/keepalive.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/spdy3.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/spdy3.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/jvm.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/jvm_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/uwsgi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jwsgi/jwsgi_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jwsgi/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ldap/ldap.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ldap/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/legion_cache_fetch/legion_cache_fetch.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/legion_cache_fetch/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libffi/libffi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libffi/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libtcc/libtcc.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libtcc/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logcrypto/logcrypto.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logcrypto/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logfile/logfile.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logfile/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logpipe/logpipe.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logpipe/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logsocket/logsocket_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logsocket/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logzmq/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logzmq/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/lua/lua_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/lua/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/matheval/math.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/matheval/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodb/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodb/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodblog/mongodblog_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodblog/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongrel2/mongrel2.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongrel2/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mono/mono_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mono/uwsgi.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mono/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/msgpack/msgpack.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/msgpack/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/nagios/nagios.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/nagios/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/notfound/notfound.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/notfound/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/objc_gc/objc_gc.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/objc_gc/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pam/pam.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pam/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/common.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/php_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/session.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ping/ping_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ping/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi_loader.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi_response.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/uwsgi_plmodule.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pty/pty.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pty/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/pypy_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/pypy_setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/gil.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/profiler.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/pump_subhandler.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/pyloader.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/python_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/pyutils.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/raw.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/symimporter.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/tracebacker.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/uwsgi_pymodule.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/uwsgi_python.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/web3_subhandler.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/wsgi_handlers.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/wsgi_headers.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/wsgi_subhandler.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pyuwsgi/pyuwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pyuwsgi/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/rack_api.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/rack_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/uwsgi_rack.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rados/rados.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rados/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rawrouter/rawrouter.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rawrouter/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rbthreads/rbthreads.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rbthreads/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/redislog/redislog_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/redislog/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ring/ring_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ring/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_access/router_access.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_access/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_basicauth/router_basicauth.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_basicauth/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_cache/router_cache.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_cache/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_expires/expires.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_expires/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_hash/router_hash.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_hash/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_http/router_http.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_http/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_memcached/router_memcached.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_memcached/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_metrics/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_metrics/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_radius/radius.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_radius/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redirect/router_redirect.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redirect/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redis/router_redis.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redis/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_rewrite/router_rewrite.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_rewrite/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_spnego/router_spnego.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_spnego/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_static/router_static.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_static/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_uwsgi/router_uwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_uwsgi/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_xmldir/router_xmldir.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_xmldir/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rpc/rpc_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rpc/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rrdtool/rrdtool.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rrdtool/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rsyslog/rsyslog_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rsyslog/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ruby19/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/servlet/servlet_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/servlet/uwsgi_servlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/servlet/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/signal/signal_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/signal/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/spooler/spooler_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/spooler/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sqlite3/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sqlite3/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ssi/ssi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ssi/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sslrouter/sslrouter.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sslrouter/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stackless/stackless.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stackless/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_file/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_file/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_mongodb/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_mongodb/stats_pusher_mongodb.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_mongodb/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_socket/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_socket/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_statsd/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_statsd/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/symcall/symcall_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/symcall/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/syslog/syslog_plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/syslog/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/systemd_logger/systemd_logger.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/systemd_logger/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tornado/tornado.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tornado/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_chunked/chunked.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_chunked/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_gzip/gzip.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_gzip/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_offload/offload.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_offload/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_template/tt.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_template/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_tofile/tofile.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_tofile/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_toupper/toupper.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_toupper/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/common.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/common.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/firewall.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/tuntap.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ugreen/ugreen.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ugreen/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_commonjs.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_jsgi.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_uwsgi.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_uwsgi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/webdav/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/webdav/webdav.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xattr/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xattr/xattr.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xslt/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xslt/xslt.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zabbix/plugin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zabbix/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zergpool/uwsgiplugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zergpool/zergpool.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/base.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/fastcgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/http.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/puwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/scgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/uwsgi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/setup.cpyext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/setup.pyuwsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/cachebitmap.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/cachebitmap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/cachetest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/clojure/myapp.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/core/apps/read_body_and_send.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/core/read_body_and_send.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/core/url_sanitize.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/go/cachetest.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/go/complextest.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/go/uploadtest.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/java/rpc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/lua/basic.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mono/cache.aspx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mules/mulebrain.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mules/reload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mules/signal_management.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/active_workers_signal.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/apps/input_with_offset.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test.psgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_benchmark.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_harakiri.psgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_hello.psgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_input_with_offset.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_post.psgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_sleepy.psgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_streaming.psgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/pypy/t_continulet1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/pypy/t_continulet2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/forcecl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/manage_script_name/manage_script_name_test.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/manage_script_name/test_manage_script_name.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/manage_script_name/useless_app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/spooler_decorators/spooler_decorator_test.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/spooler_decorators/spooler_decorator_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/spooler_decorators/spooler_handlers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/testba.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/config.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/project.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/app.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/basic.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/body.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/simple.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/upload.clj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/routing/auth.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/routing/errorlimiter.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/routing/limiter.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/bigranges.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/bigranges.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/sharedarea_incdec.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/sharedarea_incdec.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/spooler/read.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/spooler/reload.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/spooler/spooldir/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/webdav/carddav.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/xslt/cd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/xslt/cd.xml.xslt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/xslt/routex.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/Responder.pm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/badthread.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/badwrites.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/cpubound_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/cpubound_green.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/cpubound_stackless.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/decoratortest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/fileserve_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/gevent_spool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/grunter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/iobound_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/iobound_async_unix.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/iobound_green.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/logger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/mako_ugreen.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/mulefunc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/multiapp.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/myadmin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/pgbound_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/picazzo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/psycogreen_green.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/psycopg2_green.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/pump.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/queue.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/refcount.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/rpc.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/rpc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/runningthread.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sendchunked.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sharedarea.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sig.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/signals.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sigwait.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sleeping_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sleeping_green.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sleepthreadasync.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/slow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/spoolme.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/staticfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/streamer.psgi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/t/static.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/templates/queue.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testapp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testgevent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testpy3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testsignals.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/threads.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/travis.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/ugevent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/web3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat_async.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat_asyncio.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.lua" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.pl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/werkzeug.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgi.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgi.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgi_main.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgiconfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgidecorators.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgidsl.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/valgrind/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/valgrind/valgrind-generate-sups.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vassals/broodlord.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vassals/cc.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vassals/multi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask001/app1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask002/app2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask003/app3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask004/app4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask005/app5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/nginx.conf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/cart.html" afterPath="$PROJECT_DIR$/templates/cart.html" />
     </list>
     <ignored path="dailyfreshshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -697,58 +34,58 @@
       <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="-975">
+              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10175">
-              <caret line="407" column="45" selection-start-line="407" selection-start-column="39" selection-end-line="407" selection-end-column="45" />
+            <state relative-caret-position="275">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/reset.css">
+      <file leaf-file-name="base_user_center.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base_user_center.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attachment.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css">
+      <file leaf-file-name="user_center_order.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user_center_order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+            <state relative-caret-position="125">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.css">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dailyfreshshop/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2125">
-              <caret line="85" column="32" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="32" />
+            <state relative-caret-position="551">
+              <caret line="222" column="16" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.css">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/cart/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="66" column="34" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="34" />
+            <state relative-caret-position="185">
+              <caret line="193" column="35" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -788,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitattributes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -855,7 +192,6 @@
         <option value="$PROJECT_DIR$/apps/cart/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/base_no_cart.html" />
-        <option value="$PROJECT_DIR$/templates/cart.html" />
         <option value="$PROJECT_DIR$/apps/order/urls.py" />
         <option value="$PROJECT_DIR$/dailyfreshshop/urls.py" />
         <option value="$PROJECT_DIR$/apps/order/views.py" />
@@ -865,6 +201,7 @@
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgiconfig.py" />
         <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/templates/cart.html" />
       </list>
     </option>
   </component>
@@ -1028,6 +365,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="celery_tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dailyfreshshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dailyfreshshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dailyfreshshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dailyfreshshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1381,25 +750,25 @@
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31404072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49678457" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.50482315" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49517685" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49678457" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49517685" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="manage.py@dailyfreshshop" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1454,13 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_center_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1659,27 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base_user_center.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/place_order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1698,14 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfreshshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1734,14 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1824,6 +1149,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="193" column="35" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_user_center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_center_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfreshshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="222" column="16" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
           <folding />
         </state>
       </provider>
