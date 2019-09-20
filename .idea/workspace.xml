@@ -2,12 +2,725 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72a50943-8f0c-4749-a6b6-c79c0f91c1d3" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods007.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods010.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods011.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods012.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods013.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods014.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods015.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods016.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods017.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods019.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods020.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods/goods021.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/goods_detail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/4G+80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/5c_80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/MIX_80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/compare.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/hm4_80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/hm4x_80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/hmn4x_80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icon/holder_110.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mi-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mi_lg_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/p_big3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pay_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/register_banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/shop_cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slide.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slide02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slide03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slide04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slogan2016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/logging" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/logging." />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/logo_uWSGI.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/order_comment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/place_order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/pax_global_header" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/core.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/coroae.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/coverity.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/default.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/django.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/embedded.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/erlang.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/gccgo.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/gevent.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/glusterfs.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/gridfs.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/jwsgi.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/lib.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/lua.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/luap.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/minimal.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/pyuwsginossl.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/rack.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/rados.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/rbonly.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/ring.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/ruby2.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/servlet.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/travis.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/unbit.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/unbitstaff.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/uwsgi.it.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/buildconf/v8.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/Uwsgi.pm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/binder.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/centos_init_script" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/cgi_python.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/cryptologger.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/emperormon.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/fdconf.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/graphite_uwsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/launchd/it.unbit.uwsgi.emperor.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/launchd/it.unbit.uwsgi.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/loadapp.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/pypy/uwsgi_pypy_greenlets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/pyuwsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/runuwsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/securesubscribe.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/spoolqueue/producer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/spoolqueue/tasks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/spoolqueue/tasksconsumer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/subscribe.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/twuwsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/upstart/emperor.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/upstart/uwsgi.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/upython" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/urack.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi-cache-monitor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi.erl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi_client.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgi_dynamic_client.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/uwsgisubscribers.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/contrib/xinetd_uwsgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/alarm.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/async.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/buffer.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/cache.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/chunked.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/clang_fake.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/clock.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/config.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/cookie.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/cron.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/daemons.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/emperor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/errors.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/event.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/exceptions.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/fifo.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/fsmon.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/gateway.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/hash.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/hooks.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/ini.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/io.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/json.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/legion.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/lock.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/logging.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/loop.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master_checks.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master_events.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/master_utils.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/metrics.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/mount.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/mule.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/notify.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/offload.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/plugins.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/plugins_builder.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/progress.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/protocol.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/querystring.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/queue.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/rb_timers.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/reader.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/regexp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/routing.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/rpc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/sendfile.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/setup_utils.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/sharedarea.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/signal.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/skel.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/snmp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/socket.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/spooler.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/ssl.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/static.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/stats.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/storage.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/strings.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/subscription.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/timebomb.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/transformations.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/utils.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/uwsgi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/websockets.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/writer.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/xmlconf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/yaml.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/zeus.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/core/zlib.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/bootstrap5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config17.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config2.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config2.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/config30.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/corostream.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/debug.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/fibers.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/fibers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/flaskpost.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/heavytest.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/heavytest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/info_uwsgi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/logic.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/mega.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/mjpeg_stream.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/mojoapp.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgirouter4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgirouter5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/uwsgistatus.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/welcome.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/welcome.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/welcome3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/werkzeug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/werkzeug.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/werkzeug_strict.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/xmlindex-html.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/xmlindex.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/examples/zmqgevent.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/ext/uwsgi/extconf.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/install.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/lib/linux_ns.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/lib/netlink.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/lib/sun_fixes.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/logo_uWSGI.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/mongrel2-uwsgi.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/airbrake/airbrake_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/airbrake/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_curl/alarm_curl_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_curl/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_speech/alarm_speech.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_speech/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_xmpp/alarm_xmpp_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_xmpp/gloox.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/alarm_xmpp/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/asyncio/asyncio.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/asyncio/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cache/cache.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cache/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/carbon/carbon.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/carbon/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cgi/cgi_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cgi/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_backlog2/cheaper_backlog2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_backlog2/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_busyness/cheaper_busyness.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cheaper_busyness/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_monotonic/clock_monotonic.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_monotonic/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_realtime/clock_realtime.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/clock_realtime/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/corerouter.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/cr.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/cr_common.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/cr_map.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/corerouter/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/coroae/coroae.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/coroae/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cplusplus/base.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cplusplus/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/cplusplus/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/curl_cron/curl_cron.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/curl_cron/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dumbloop/dumb.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dumbloop/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dummy/dummy.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/dummy/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/echo/echo_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/echo/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_amqp/amqp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_amqp/emperor_amqp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/emperor_amqp/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/forkptyrouter/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gccgo/gccgo_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gccgo/uwsgi.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gccgo/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/geoip/geoip.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/geoip/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/gevent.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/gevent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/hooks.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gevent/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/glusterfs/glusterfs.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/glusterfs/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/graylog2/graylog2_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/graylog2/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/greenlet/greenlet.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/greenlet/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gridfs/gridfs.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gridfs/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/gridfs/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/http.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/https.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/keepalive.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/spdy3.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/spdy3.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/http/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/jvm.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/jvm_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/uwsgi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jvm/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jwsgi/jwsgi_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/jwsgi/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ldap/ldap.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ldap/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/legion_cache_fetch/legion_cache_fetch.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/legion_cache_fetch/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libffi/libffi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libffi/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libtcc/libtcc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/libtcc/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logcrypto/logcrypto.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logcrypto/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logfile/logfile.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logfile/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logpipe/logpipe.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logpipe/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logsocket/logsocket_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logsocket/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logzmq/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/logzmq/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/lua/lua_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/lua/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/matheval/math.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/matheval/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodb/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodb/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodblog/mongodblog_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongodblog/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongrel2/mongrel2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mongrel2/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mono/mono_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mono/uwsgi.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/mono/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/msgpack/msgpack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/msgpack/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/nagios/nagios.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/nagios/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/notfound/notfound.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/notfound/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/objc_gc/objc_gc.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/objc_gc/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pam/pam.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pam/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/php_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/session.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/php/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ping/ping_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ping/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi_loader.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/psgi_response.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/uwsgi_plmodule.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/psgi/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pty/pty.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pty/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/pypy_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/pypy_setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pypy/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/gil.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/profiler.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/pump_subhandler.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/pyloader.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/python_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/pyutils.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/raw.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/symimporter.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/tracebacker.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/uwsgi_pymodule.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/uwsgi_python.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/web3_subhandler.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/wsgi_handlers.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/wsgi_headers.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/python/wsgi_subhandler.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pyuwsgi/pyuwsgi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/pyuwsgi/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/rack_api.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/rack_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/uwsgi_rack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rack/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rados/rados.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rados/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rawrouter/rawrouter.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rawrouter/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rbthreads/rbthreads.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rbthreads/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/redislog/redislog_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/redislog/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ring/ring_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ring/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_access/router_access.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_access/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_basicauth/router_basicauth.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_basicauth/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_cache/router_cache.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_cache/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_expires/expires.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_expires/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_hash/router_hash.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_hash/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_http/router_http.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_http/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_memcached/router_memcached.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_memcached/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_metrics/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_metrics/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_radius/radius.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_radius/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redirect/router_redirect.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redirect/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redis/router_redis.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_redis/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_rewrite/router_rewrite.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_rewrite/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_spnego/router_spnego.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_spnego/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_static/router_static.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_static/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_uwsgi/router_uwsgi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_uwsgi/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_xmldir/router_xmldir.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/router_xmldir/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rpc/rpc_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rpc/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rrdtool/rrdtool.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rrdtool/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rsyslog/rsyslog_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/rsyslog/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ruby19/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/servlet/servlet_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/servlet/uwsgi_servlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/servlet/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/signal/signal_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/signal/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/spooler/spooler_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/spooler/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sqlite3/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sqlite3/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ssi/ssi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ssi/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sslrouter/sslrouter.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/sslrouter/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stackless/stackless.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stackless/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_file/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_file/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_mongodb/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_mongodb/stats_pusher_mongodb.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_mongodb/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_socket/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_socket/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_statsd/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/stats_pusher_statsd/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/symcall/symcall_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/symcall/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/syslog/syslog_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/syslog/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/systemd_logger/systemd_logger.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/systemd_logger/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tornado/tornado.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tornado/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_chunked/chunked.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_chunked/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_gzip/gzip.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_gzip/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_offload/offload.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_offload/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_template/tt.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_template/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_tofile/tofile.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_tofile/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_toupper/toupper.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/transformation_toupper/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/common.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/firewall.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/tuntap.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/tuntap/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ugreen/ugreen.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/ugreen/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_commonjs.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_jsgi.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_uwsgi.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/v8/v8_uwsgi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/webdav/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/webdav/webdav.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xattr/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xattr/xattr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xslt/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/xslt/xslt.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zabbix/plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zabbix/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zergpool/uwsgiplugin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/plugins/zergpool/zergpool.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/base.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/fastcgi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/http.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/puwsgi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/scgi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/proto/uwsgi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/setup.cpyext.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/setup.pyuwsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/cachebitmap.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/cachebitmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/cachetest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/clojure/myapp.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/core/apps/read_body_and_send.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/core/read_body_and_send.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/core/url_sanitize.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/go/cachetest.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/go/complextest.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/go/uploadtest.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/java/rpc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/lua/basic.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mono/cache.aspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mules/mulebrain.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mules/reload.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/mules/signal_management.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/active_workers_signal.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/apps/input_with_offset.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test.psgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_benchmark.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_harakiri.psgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_hello.psgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_input_with_offset.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_post.psgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_sleepy.psgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/perl/test_streaming.psgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/pypy/t_continulet1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/pypy/t_continulet2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/forcecl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/manage_script_name/manage_script_name_test.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/manage_script_name/test_manage_script_name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/manage_script_name/useless_app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/spooler_decorators/spooler_decorator_test.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/spooler_decorators/spooler_decorator_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/spooler_decorators/spooler_handlers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/python/testba.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/config.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/project.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/app.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/basic.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/body.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/simple.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/ring/src/uwsgi/ring/tests/upload.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/routing/auth.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/routing/errorlimiter.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/routing/limiter.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/bigranges.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/bigranges.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/sharedarea_incdec.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/sharedarea/sharedarea_incdec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/spooler/read.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/spooler/reload.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/spooler/spooldir/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/webdav/carddav.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/xslt/cd.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/xslt/cd.xml.xslt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/t/xslt/routex.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/Responder.pm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/badthread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/badwrites.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/cpubound_async.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/cpubound_green.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/cpubound_stackless.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/decoratortest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/fileserve_async.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/gevent_spool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/grunter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/iobound_async.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/iobound_async_unix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/iobound_green.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/logger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/mako_ugreen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/mulefunc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/multiapp.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/myadmin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/pgbound_async.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/picazzo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/psycogreen_green.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/psycopg2_green.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/pump.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/queue.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/refcount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/rpc.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/rpc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/runningthread.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sendchunked.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sharedarea.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sig.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/signals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sigwait.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sleeping_async.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sleeping_green.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/sleepthreadasync.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/slow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/spoolme.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/staticfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/streamer.psgi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/t/static.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/templates/queue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testapp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testgevent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testpy3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/testsignals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/threads.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/travis.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/ugevent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/web3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat_async.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_chat_asyncio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/websockets_echo.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/tests/werkzeug.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgi.gemspec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgi_main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgiconfig.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgidecorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgidsl.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/valgrind/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/valgrind/valgrind-generate-sups.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vassals/broodlord.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vassals/cc.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vassals/multi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask001/app1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask002/app2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask003/app3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask004/app4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/vhosttest/flask005/app5.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/ad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/adv01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/adv02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/banner06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/fruit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods006.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods014.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods015.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods016.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods017.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods018.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods019.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods020.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods/goods021.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/goods_detail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/4G+80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/5c_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/MIX_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/compare.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/hm4_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/hm4x_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/hmn4x_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/holder_110.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/holder_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/max2_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/mifenka-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/mimobile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/xm5S-plus_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/xm5_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/xm5s_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/xm6_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icon/xmNOTE2_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/icons02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/interval_line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/left_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/login_banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/mi-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/mi_lg_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/p_big3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/pay_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/register_banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/shop_cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/slide.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/slide02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/slide03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/slide04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/slogan2016.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/cart/views.py" afterPath="$PROJECT_DIR$/apps/cart/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/order/urls.py" afterPath="$PROJECT_DIR$/apps/order/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/order/views.py" afterPath="$PROJECT_DIR$/apps/order/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dailyfreshshop/urls.py" afterPath="$PROJECT_DIR$/dailyfreshshop/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css" afterPath="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base_no_cart.html" afterPath="$PROJECT_DIR$/templates/base_no_cart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/detail.html" afterPath="$PROJECT_DIR$/templates/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/cart.html" afterPath="$PROJECT_DIR$/templates/cart.html" />
     </list>
     <ignored path="dailyfreshshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,106 +748,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailyfreshshop/settings.py">
+      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="173">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cart/urls.py">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-              <folding>
-                <element signature="e#47#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="25">
+              <caret line="407" column="45" selection-start-line="407" selection-start-column="39" selection-end-line="407" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_user_center.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base_user_center.html">
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/detail.html">
+      <file leaf-file-name="attachment.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+            <state relative-caret-position="325">
+              <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cart/apps.py">
+      <file leaf-file-name="background.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="150">
+              <caret line="85" column="32" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="66" column="34" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.default.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.default.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="1893" column="60" selection-start-line="1893" selection-start-column="60" selection-end-line="1893" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cart/views.py">
+        <entry file="file://$PROJECT_DIR$/apps/order/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+            <state relative-caret-position="287">
+              <caret line="278" column="54" selection-start-line="278" selection-start-column="54" selection-end-line="278" selection-end-column="54" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dailyfreshshop/urls.py">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dailyfreshshop/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/cart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_no_cart.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base_no_cart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="400">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#231#240#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,11 +858,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/goods_base.html" />
-        <option value="$PROJECT_DIR$/apps/utils/send_email.py" />
-        <option value="$PROJECT_DIR$/templates/register.html" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/apps/utils/mixin.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/apps/user/forms.py" />
         <option value="$PROJECT_DIR$/requirement.txt" />
@@ -191,7 +889,6 @@
         <option value="$PROJECT_DIR$/templates/base_user_center.html" />
         <option value="$PROJECT_DIR$/apps/user/views.py" />
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
-        <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/apps/goods/search_indexes.py" />
         <option value="$PROJECT_DIR$/templates/search/search.html" />
         <option value="$USER_HOME$/Envs/dailyfresh/Lib/site-packages/haystack/backends/ChineseAnalyzer.py" />
@@ -199,13 +896,19 @@
         <option value="$PROJECT_DIR$/dailyfreshshop/settings.py" />
         <option value="$PROJECT_DIR$/templates/base_detail_list.html" />
         <option value="$PROJECT_DIR$/apps/cart/urls.py" />
-        <option value="$PROJECT_DIR$/apps/order/urls.py" />
-        <option value="$PROJECT_DIR$/dailyfreshshop/urls.py" />
         <option value="$PROJECT_DIR$/templates/detail.html" />
         <option value="$PROJECT_DIR$/apps/cart/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/cart.html" />
         <option value="$PROJECT_DIR$/templates/base_no_cart.html" />
+        <option value="$PROJECT_DIR$/templates/cart.html" />
+        <option value="$PROJECT_DIR$/apps/order/urls.py" />
+        <option value="$PROJECT_DIR$/dailyfreshshop/urls.py" />
+        <option value="$PROJECT_DIR$/apps/order/views.py" />
+        <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css" />
+        <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.css" />
+        <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.css" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgiconfig.py" />
       </list>
     </option>
   </component>
@@ -369,74 +1072,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="celery_tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailyfreshshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -859,83 +1494,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/hash_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfreshshop/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_center_site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2775">
           <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,9 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-          <folding>
-            <element signature="e#46#86#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,7 +1534,7 @@
         <state relative-caret-position="-33">
           <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -987,7 +1543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,16 +1550,280 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/haystack/backends/whoosh_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="902" column="33" selection-start-line="902" selection-start-column="33" selection-end-line="902" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/search_indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/utils/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/core/checks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/urls/resolvers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="413" column="0" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search/search_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/search/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/haystack/backends/ChineseAnalyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/haystack/backends/whoosh_cn_backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_detail_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/base/mixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#47#79#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.default.css">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/static_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cart/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_user_center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/place_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base_no_cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfreshshop/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dailyfreshshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/emotion/emotion.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/music/music.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/order/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/image/image.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/background/background.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/dialogs/attachment/attachment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="407" column="45" selection-start-line="407" selection-start-column="39" selection-end-line="407" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1017,271 +1836,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/static/css/style.default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="98" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/haystack/backends/whoosh_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="902" column="33" selection-start-line="902" selection-start-column="33" selection-end-line="902" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/search_indexes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/indexes/goods/goodssku_text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/utils/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/core/checks/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/django/urls/resolvers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="413" column="0" selection-start-line="413" selection-start-column="0" selection-end-line="413" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/search_test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/search/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/haystack/backends/ChineseAnalyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#59#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/dailyfresh/Lib/site-packages/haystack/backends/whoosh_cn_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="171" column="42" selection-start-line="171" selection-start-column="42" selection-end-line="171" selection-end-column="42" />
-          <folding>
-            <element signature="e#19#101#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base_detail_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/base/mixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/order/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="98">
+          <caret line="1893" column="60" selection-start-line="1893" selection-start-column="60" selection-end-line="1893" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/order/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/order/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="287">
+          <caret line="278" column="54" selection-start-line="278" selection-start-column="54" selection-end-line="278" selection-end-column="54" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/dailyfreshshop/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="400">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#231#240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/static_base.html">
+    <entry file="file://$PROJECT_DIR$/uwsgi-2.0.18/uwsgi-2.0.18/uwsgiconfig.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cart/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cart/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
-            <element signature="e#47#79#0" expanded="true" />
+            <element signature="e#48#57#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfreshshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dailyfreshshop/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base_user_center.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base_no_cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>

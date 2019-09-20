@@ -283,7 +283,7 @@
     margin-top: 15px;
 }
 
-#upload .filelist li img {
+#upload .filelist li images {
     width: 100%;
 }
 
@@ -527,7 +527,7 @@
     margin: 0;
     padding: 0;
 }
-#online li img {
+#online li images {
     cursor: pointer;
 }
 #online li div.file-wrapper {
