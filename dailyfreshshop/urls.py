@@ -21,6 +21,7 @@ import xadmin
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^ueditor/', include('DjangoUeditor.urls')),  # 富文本编辑器
+    url('search/', include('haystack.urls')),  # 全文检索框架
     url(r'^captcha/', include('captcha.urls')),         # 验证码
     url(r'', include('goods.urls', namespace='goods')),  # 商品模块
     # url(r'^index/$|index.html/$|^$', IndexView.as_view(), name='index'),

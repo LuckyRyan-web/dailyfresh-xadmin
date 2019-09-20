@@ -3,17 +3,19 @@
 {% load staticfiles %}
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>{% block title %}天天生鲜-首页{% endblock title %}</title>
+    {# 网页标题块 #}
+	<title>
+        {% block title %}{% endblock title %}
+    </title>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-	<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
-	<script type="text/javascript" src="{% static 'js/jquery-ui.min.js' %}"></script>
-	<script type="text/javascript" src="{% static 'js/slide.js' %}"></script>
-    {% block cummon_css %}
-    {% endblock cummon_css %}
+    {# 网页顶部引入文件块 #}
+	{% block topfiles %}
+	{% endblock topfiles %}
 </head>
 <body>
-    {% block header %}
+
+    {% block header_con %}
 	<div class="header_con">
 		<div class="header">
 			<div class="welcome fl">欢迎来到天天生鲜!</div>
@@ -21,8 +23,6 @@
                 {% if request.user.is_authenticated %}
 				<div class="login_info fl">
 					欢迎您：<em>{{ request.user.username }}</em>
-                <span>|</span>
-					<a href="{% url 'logout' %}">退出</a>
 				</div>
                     {% else %}
 				<div class="login_btn fl">
@@ -42,62 +42,60 @@
 			</div>
 		</div>
 	</div>
-    {% endblock header %}
+    {% endblock header_con %}
 
-    {% block search_bar %}
+
+{# 网页搜索框块 #}
+{% block search_bar %}
 	<div class="search_bar clearfix">
-		<a href="index.html" class="logo fl"><img src="{% static 'img/logo.png' %}"></a>
+		<a href="{% url 'goods:index' %}" class="logo fl"><img src="{% static 'images/logo.png' %}"></a>
 		<div class="search_con fl">
-			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
-			<input type="button" class="input_btn fr" name="" value="搜索">
+            <form action="/search" method="get">
+                <input type="text" class="input_text fl" name="q" placeholder="搜索商品">
+			    <input type="submit" class="input_btn fr" name="" value="搜索">
+
+            </form>
 		</div>
+
+    {% block cart_bar %}
 		<div class="guest_cart fr">
 			<a href="#" class="cart_name fl">我的购物车</a>
-			<div class="goods_count fl" id="show_count">{{ cart_count }}</div>
+            {% if cart_count %}
+			    <div class="goods_count fl" id="show_count">{{ cart_count }}</div>
+            {% else %}
+                <div class="goods_count fl" id="show_count">0</div>
+            {% endif %}
 		</div>
+    {% endblock cart_bar %}
+
 	</div>
-    {% endblock search_bar %}
+{% endblock search_bar %}
 
-    {% block body %}
 
-    {% endblock body %}
 
-	<div class="footer">
-		<div class="foot_link">
-			<a href="#">关于我们</a>
-			<span>|</span>
-			<a href="#">联系我们</a>
-			<span>|</span>
-			<a href="#">招聘人才</a>
-			<span>|</span>
-			<a href="#">友情链接</a>
-		</div>
-		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
-		<p>电话：010-****888    京ICP备*******8号</p>
-	</div>
+{# 网页主体内容块 #}
+{% block body %}{% endblock body %}
 
-    {% block bottom %}
+<div class="footer">
+    <div class="foot_link">
+        <a href="#">关于我们</a>
+        <span>|</span>
+        <a href="#">联系我们</a>
+        <span>|</span>
+        <a href="#">招聘人才</a>
+        <span>|</span>
+        <a href="#">友情链接</a>
+    </div>
+    <p>CopyRight © 2019-2020 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+    <p>电话：010-****888    京ICP备*******8号</p>
+</div>
 
-    {% endblock bottom %}
+{# 网页底部html元素块 #}
+{% block bottom %}
+{% endblock bottom %}
 
-    {% block cummon_js %}
-
-    {% endblock cummon_js %}
-	<script type="text/javascript">
-		BCSlideshow('focuspic');
-		var oFruit = document.getElementById('fruit_more');
-		var oShownum = document.getElementById('show_count');
-
-		var hasorder = localStorage.getItem('order_finish');
-
-		if(hasorder)
-		{
-			oShownum.innerHTML = '2';
-		}
-
-		oFruit.onclick = function(){
-			window.location.href = 'list.html';
-		}
-	</script>
+{# 网页底部引入文件块 #}
+{% block bottomfiles %}
+{% endblock bottomfiles %}
 </body>
 </html>
