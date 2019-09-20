@@ -26,7 +26,7 @@
    然后一键安装依赖包
    pip install -r requirements.txt
 2. 在setting.py中配置自己的服务器或者虚拟机的ip和端口
-3. 在celery_tasks配置自己的服务器或者虚拟机的redis端口，然后使用`celery -A ` 启动celery服务
+3. 在celery_tasks配置自己的服务器或者虚拟机的redis端口，然后使用`celery -A celery_tasks.tasks worker -l info -P eventlet ` 启动celery服务
 4. 在使用redis缓存记录的时候看看自己的redis数据库有没有值先，redis-cli -h 127.0.0.1 -p 6379，Flushdb(删除单个数据库的所有键值对)
 5. 在自己部署的服务器上，使用[文档](https://blog.csdn.net/busishenren/article/details/83584885)里面的步骤去部署，记得[开放端口](https://www.cnblogs.com/heqiuyong/p/10460150.html)
 6. 改写utils.fdfs里面的client.conf的base_path和tracker_server字段
@@ -81,11 +81,13 @@
 
 1. 将admin改成xadmin以便于插件开发
 2. 发送邮件等耗时操作使用了Celery任务队列，redis作为操作的中间件，以节约等待时间
-3.  登陆功能使用了redis缓存存储
-4.  admin可以继承save_model方法，而xadmin没有，所以这里使用将关键数据进行哈希算法存储来比较来确定数据的更改，再发送异步任务去生成首页缓存
+3.  记录登陆功能、购物车功能使用了redis缓存存储
+4.  admin可以继承save_model方法，而xadmin没有，所以这里使用将关键数据进行比较，如果不相同就说明页面改变，则开启缓存
 5. 考虑到服务器的内存可能不够存储静态资源，所以采用了FDFS存储静态资源
 6.  将首页，详情页面，列表页等所有用户都能看到的界面在第一次访问之后静态化，以减少数据库的操作
-7.  订单并发使用了悲观锁
+7. 搜索功能采用了haystack全文检索框架来使用whoosh搜索引擎，在搜索的时候使用jieba分词，能使得搜索更全面和准确
+8.  订单并发使用了悲观锁
+9.  支付功能使用支付宝的沙箱环境，可以生成支付的随机字符串
 
 ##  开发日志
 
@@ -97,9 +99,12 @@
 
 4. 使用了celery异步缓存首页文件，并且发现在windows上写文件默认的编码是gbk，所以在win10上部署的时候一定要encoding='utf-8'
 
-5. 继承admin有一个save_model方法，如果管理员修改了数据那么就重新定义一次缓存，但因为我这里用的是xadmin，所以不能继承admin的方法，就不能实时修改缓存。然后我想了一个临时解决的办法，在goods的views.py里面写一个函数，这个函数记录了上一次的缓存文件的哈希值，然后把这个哈希值存入redis缓存中，如果新记录的哈希值和原来的不一样，那么就可以认定页面已经改变，就可以更新缓存。
+5. 继承admin有一个save_model方法，如果管理员修改了数据那么就重新定义一次缓存，但因为我这里用的是xadmin，所以不能继承admin的方法，就不能实时修改缓存。然后我想了一个临时解决的办法，在goods的views.py里面判断两次context的值是否相等，如果不相等那么就是后台修改了数据。完成商城的详情、列表页。完成搜索功能
 
-   
+
+
+
+
 
 
 
