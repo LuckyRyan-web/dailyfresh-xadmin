@@ -21,6 +21,8 @@
                 {% if request.user.is_authenticated %}
 				<div class="login_info fl">
 					欢迎您：<em>{{ request.user.username }}</em>
+                <span>|</span>
+					<a href="{% url 'logout' %}">退出</a>
 				</div>
                     {% else %}
 				<div class="login_btn fl">
@@ -51,7 +53,7 @@
 		</div>
 		<div class="guest_cart fr">
 			<a href="#" class="cart_name fl">我的购物车</a>
-			<div class="goods_count fl" id="show_count">1</div>
+			<div class="goods_count fl" id="show_count">{{ cart_count }}</div>
 		</div>
 	</div>
     {% endblock search_bar %}

@@ -8,13 +8,13 @@
 				<h1>全部商品分类</h1>
 				<span></span>
 				<ul class="subnav">
-
-					<li><a href="" class = ""></a></li>
-
+                    {% for type in types %}
+					<li><a href="{% url 'goods:list' type.id 1 %}" class = "{{ type.logo }}">{{ type.name}}</a></li>
+					{% endfor %}
 				</ul>
 			</div>
 			<ul class="navlist fl">
-				<li><a href="">首页</a></li>
+				<li><a href="{% url 'goods:index' %}">首页</a></li>
 				<li class="interval">|</li>
 				<li><a href="">手机生鲜</a></li>
 				<li class="interval">|</li>

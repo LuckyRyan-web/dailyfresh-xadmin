@@ -5,7 +5,7 @@
         {% csrf_token %}
         <h3 class="common_title2">全部订单</h3>
 
-{#        {% for order in order_page %}#}
+        {% for order in order_page %}
         <ul class="order_list_th w978 clearfix">
             <li class="col01">{{ order.create_time }}</li>
             <li class="col02">订单号：{{ order.order_id }}</li>
@@ -31,22 +31,22 @@
                 </tr>
             </tbody>
         </table>
-{#        {% endfor %}#}
+        {% endfor %}
 
         <div class="pagenation">
-{#            {% if order_page.has_previous %}#}
+            {% if order_page.has_previous %}
                 <a href="{% url 'user:order' order_page.previous_page_number %}"> < 上一页</a>
-{#            {% endif %}#}
-{#            {% for pindex in pages %}#}
-{#                {% if pindex == order_page.number %}#}
+            {% endif %}
+            {% for pindex in pages %}
+                {% if pindex == order_page.number %}
                     <a href="{% url 'user:order' pindex %}" class="active">{{ pindex }}</a>
-{#                {% else %}#}
+                {% else %}
                     <a href="{% url 'user:order' pindex %}">{{ pindex }}</a>
-{#                {% endif %}#}
-{#            {% endfor %}#}
-{#            {% if order_page.has_next %}#}
+                {% endif %}
+            {% endfor %}
+            {% if order_page.has_next %}
                 <a href="{% url 'user:order' order_page.next_page_number %}">下一页></a>
-{#            {% endif %}#}
+            {% endif %}
         </div>
     </div>
 {% endblock right_content %}

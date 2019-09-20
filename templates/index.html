@@ -30,7 +30,7 @@
 		<div class="slide fl">
 			<ul class="slide_pics">
                 {% for banner in index_banner %}
-                    <li><a href=""><img src="{{ banner.image.url }}" alt="幻灯片"></a></li>
+                    <li><a href="{% url 'goods:detail' banner.sku.id  %}"><img src="{{ banner.image.url }}" alt="幻灯片"></a></li>
 				{% endfor %}
 			</ul>
 			<div class="prev"></div>
@@ -52,10 +52,10 @@
 				<span>|</span>
                 {# 首页展示分类文字商品信息 #}
                 {% for banner in type.title_banner %}
-                    <a href="">{{ banner.sku.name }}</a>
+                    <a href="{% url 'goods:detail' banner.sku.id  %}">{{ banner.sku.name }}</a>
                 {% endfor %}
 			</div>
-			<a href="" class="goods_more fr" id="fruit_more">查看更多 ></a>
+			<a href="{% url 'goods:list' type.id 1 %}" class="goods_more fr" id="fruit_more">查看更多 ></a>
 		</div>
 
 		<div class="goods_con clearfix">
@@ -63,8 +63,8 @@
 			<ul class="goods_list fl">
                 {% for banner in type.image_banner %}
 				<li>
-					<h4><a href="">{{ banner.sku.name }}</a></h4>
-					<a href=""><img src="{{ banner.sku.image.url }}"></a>
+					<h4><a href="{% url 'goods:detail' banner.sku.id  %}">{{ banner.sku.name }}</a></h4>
+					<a href="{% url 'goods:detail' banner.sku.id  %}"><img src="{{ banner.sku.image.url }}"></a>
 					<div class="prize">¥ {{ banner.sku.price }}</div>
 				</li>
                 {% endfor %}

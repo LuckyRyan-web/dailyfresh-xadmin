@@ -90,7 +90,7 @@ class LoginView(View):
                     login(request,user)                                         #login方法是Django后台自定义的登陆方法，内置了cookie和session的方法
 
                     #默认登陆后跳转到首页
-                    next_url=request.GET.get('next',reverse('index'))
+                    next_url=request.GET.get('next',reverse('goods:index'))
 
                     response=redirect(next_url)
 
@@ -114,7 +114,7 @@ class LoginView(View):
 class LogoutView(View):
     def get(self,request):
         logout(request)
-        return redirect(reverse('index'))
+        return redirect(reverse('goods:index'))
 
 
 class AciveUserView(View):
@@ -139,6 +139,7 @@ class UserInfoView(LoginRequiredMixin,View):
         user = request.user
         address = Address.objects.get_default_address(user)
 
+        #获取浏览记录
         con=get_redis_connection('default')
         history_key='history_%d'%user.id
         sku_ids=con.lrange(history_key,0,4)

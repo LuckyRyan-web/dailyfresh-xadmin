@@ -11,11 +11,9 @@ def mdfive(data):
     list = []
     for k, v in data.items():
         # print(v, '->', md5value(v.encode()))
-        list.append(md5value(v.encode()))
+        list.append(md5value(v.encode(encoding='UTF-8')))
     return list
 
-def test():
-    a=20
 
 if __name__ == "__main__":
     pass
