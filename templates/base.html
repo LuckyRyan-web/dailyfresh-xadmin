@@ -1,3 +1,4 @@
+{# 登录 注册 首页 详情页 列表页 #}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 {% load staticfiles %}
@@ -15,16 +16,19 @@
 </head>
 <body>
 
-    {% block header_con %}
+{# 网页顶部欢迎信息块 #}
+{% block header_con %}
 	<div class="header_con">
 		<div class="header">
 			<div class="welcome fl">欢迎来到天天生鲜!</div>
 			<div class="fr">
-                {% if request.user.is_authenticated %}
-				<div class="login_info fl">
-					欢迎您：<em>{{ request.user.username }}</em>
+                {% if user.is_authenticated %}
+				<div class="login_btn fl">
+					欢迎您：<em><a href="{% url 'user:user' %}">{{ user.username }}</a></em>
+                    <span>|</span>
+					<a href="{% url 'logout' %}">退出</a>
 				</div>
-                    {% else %}
+                {% else %}
 				<div class="login_btn fl">
 					<a href="{% url 'login' %}">登录</a>
 					<span>|</span>
@@ -33,22 +37,21 @@
                 {% endif %}
 				<div class="user_link fl">
 					<span>|</span>
-					<a href="user_center_info.html">用户中心</a>
+					<a href="{% url 'user:user' %}">用户中心</a>
 					<span>|</span>
-					<a href="cart.html">我的购物车</a>
+					<a href="{% url 'cart:cart' %}">我的购物车</a>
 					<span>|</span>
-					<a href="user_center_order.html">我的订单</a>
+					<a href="{% url 'user:order' 1 %}">我的订单</a>
 				</div>
 			</div>
 		</div>
 	</div>
-    {% endblock header_con %}
-
+{% endblock header_con %}
 
 {# 网页搜索框块 #}
 {% block search_bar %}
 	<div class="search_bar clearfix">
-		<a href="{% url 'goods:index' %}" class="logo fl"><img src="{% static 'images/logo.png' %}"></a>
+		<a href="{% url 'goods:index' %}" class="logo fl"><img src="{% static 'img/logo.png' %}"></a>
 		<div class="search_con fl">
             <form action="/search" method="get">
                 <input type="text" class="input_text fl" name="q" placeholder="搜索商品">
@@ -59,7 +62,7 @@
 
     {% block cart_bar %}
 		<div class="guest_cart fr">
-			<a href="#" class="cart_name fl">我的购物车</a>
+			<a href="{% url 'cart:cart' %}" class="cart_name fl">我的购物车</a>
             {% if cart_count %}
 			    <div class="goods_count fl" id="show_count">{{ cart_count }}</div>
             {% else %}

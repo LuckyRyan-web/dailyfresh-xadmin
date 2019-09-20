@@ -94,37 +94,37 @@
 {% block bottomfiles %}
     <script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
     <script type="text/javascript">
-          // 商品介绍与评论tag的切换
-      $('#tag_detail').click(function () {
-          $('#tag_comment').removeClass('active')
-          $(this).addClass('active')
-          $('#tab_detail').show()
-          $('#tab_comment').hide()
-      })
+        // 商品介绍与评论tag的切换
+        $('#tag_detail').click(function () {
+            $('#tag_comment').removeClass('active')
+            $(this).addClass('active')
+            $('#tab_detail').show()
+            $('#tab_comment').hide()
+        })
 
-      $('#tag_comment').click(function () {
-          $('#tag_detail').removeClass('active')
-          $(this).addClass('active')
-          $('#tab_comment').show()
-          $('#tab_detail').hide()
-      })
+        $('#tag_comment').click(function () {
+            $('#tag_detail').removeClass('active')
+            $(this).addClass('active')
+            $('#tab_comment').show()
+            $('#tab_detail').hide()
+        })
 
-    update_goods_amount()
+        update_goods_amount()
 
-    function update_goods_amount() {
-        price = $('.show_pirze').children('em').text();
-        count = $('.num_show').val();
-        price =parseFloat(price)
-        count=parseInt(count)
-        amount=price*count
-        $('.total').children('em').text(amount.toFixed(2)+'元')
-    }
+        function update_goods_amount() {
+            price = $('.show_pirze').children('em').text();
+            count = $('.num_show').val();
+            price = parseFloat(price)
+            count = parseInt(count)
+            amount = price * count
+            $('.total').children('em').text(amount.toFixed(2) + '元')
+        }
 
-     $('.add').click(function () {
+        $('.add').click(function () {
             // 获取商品的数量
             count = $('.num_show').val();
             // 增加1
-            count = parseInt(count)+1;
+            count = parseInt(count) + 1;
             // 重新设置商品的数量
             $('.num_show').val(count);
 
@@ -133,27 +133,27 @@
 
         });
 
-    $('.minus').click(function () {
-           count = $('.num_show').val();
-           count = parseInt(count)-1;
-           if (count <= 0) {
-               count = 1;
-           }
-           $('.num_show').val(count);
-
-           update_goods_amount();
-       });
-
-          // 手动输入
-       $('.num_show').blur(function () {
-           count = $(this).val();
-           // 校验count 是否合法
-           if (isNaN(count) || count.trim().length == 0 || parseInt(count)<=0){
+        $('.minus').click(function () {
+            count = $('.num_show').val();
+            count = parseInt(count) - 1;
+            if (count <= 0) {
                 count = 1;
-           }
-           $(this).val(parseInt(count));
-           update_sku_amount();
-       });
+            }
+            $('.num_show').val(count);
+
+            update_goods_amount();
+        });
+
+        // 手动输入
+        $('.num_show').blur(function () {
+            count = $(this).val();
+            // 校验count 是否合法
+            if (isNaN(count) || count.trim().length == 0 || parseInt(count) <= 0) {
+                count = 1;
+            }
+            $(this).val(parseInt(count));
+            update_sku_amount();
+        });
 
         var $add_x = $('#add_cart').offset().top;
         var $add_y = $('#add_cart').offset().left;
@@ -162,17 +162,33 @@
         var $to_x = $('#show_count').offset().top;
         var $to_y = $('#show_count').offset().left;
 
-        $(".add_jump").css({'left': $add_y + 80, 'top': $add_x + 10, 'display': 'block'})
-        $("#add_cart").click(function () {
-            $(".add_jump").stop().animate({
-                'left': $to_y + 7,
-                'top': $to_x + 7},
-                "fast", function () {
-                    $(".add_jump").fadeOut('fast', function () {
-                        // 重新设置用户购物车中商品的条目数
-                        $('#show_count').html(2);
-                    });
-                });
-        })
+        $('#add_cart').click(function(){
+            // 获取商品id和商品数目
+            count = $('.num_show').val()
+            sku_id = $(this).attr('sku_id') // prop attr
+            csrf = $('input[name="csrfmiddlewaretoken"]').val()
+            // 组织参数
+            params = {'sku_id':sku_id, 'count':count, 'csrfmiddlewaretoken':csrf}
+            // 发起ajax post请求，访问/cart/add, 传递参数:sku_id count
+            $.post('{% url 'cart:add' %}', params, function (data) {
+                if (data.res == 5){
+                    // 添加成功
+                    $(".add_jump").css({'left':$add_y+80,'top':$add_x+10,'display':'block'})
+                    $(".add_jump").stop().animate({
+                    'left': $to_y+7,
+                    'top': $to_x+7},
+                    "fast", function() {
+                        $(".add_jump").fadeOut('fast',function(){
+                            // 重新设置用户购物车中商品的条目数
+                            $('#show_count').html(data.total_count);
+                        });
+			        });
+                }
+                else{
+                    alert(data.errmsg)
+                }
+            })
+
+		})
     </script>
 {% endblock bottomfiles %}
