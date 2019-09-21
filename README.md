@@ -39,11 +39,13 @@
    python manage.py startapp dailyfresh
    然后一键安装依赖包
    pip install -r requirements.txt
-2. 在setting.py中配置自己的服务器或者虚拟机的ip和端口
-3. 在celery_tasks配置自己的服务器或者虚拟机的redis端口，然后使用`celery -A celery_tasks.tasks worker -l info -P eventlet ` 启动celery服务
-4. 在使用redis缓存记录的时候看看自己的redis数据库有没有值先，redis-cli -h 127.0.0.1 -p 6379，Flushdb(删除单个数据库的所有键值对)
-5. 在自己部署的服务器上，使用[文档](https://blog.csdn.net/busishenren/article/details/83584885)里面的步骤去部署，记得[开放端口](https://www.cnblogs.com/heqiuyong/p/10460150.html)
+2. 在setting.py中配置自己的本地的数据库或者服务器 、虚拟机的ip、端口、redis配置和邮件服务器配置
+3. 在celery_tasks配置自己的服务器或者虚拟机的redis端口，如果在windows系统就使用`celery -A celery_tasks.tasks worker -l info -P eventlet ` ，如果在linux系统就使用`celery -A celery_tasks.tasks worker -l info `,启动celery服务(异步发送邮件和使得首页静态数据缓存)
+4. 在使用redis缓存记录的时候看看自己的redis数据库有没有值先，连接数据库(redis-cli -h 127.0.0.1 -p 6379)，(select 你的数据库名)，keys *(查看你数据库的所有字段),Flushdb(删除单个数据库的所有键值对)
+5. 在自己的服务器上部署Fstdfs，使用[文档](https://blog.csdn.net/busishenren/article/details/83584885)里面的步骤去部署，记得[开放端口](https://www.cnblogs.com/heqiuyong/p/10460150.html)，然后在setting.py中填写你自己的服务器ip和端口
 6. 改写utils.fdfs里面的client.conf的base_path和tracker_server字段
+7. 以上步骤基本上可以在自己win10本机上运行了，如果要部署到服务器上，请参考下面步骤
+8. 开发中可能遇到的问题我都记录在下方，实在还看不懂的可以发邮件给我我可以为你解答
 
 
 
@@ -90,7 +92,7 @@ ALLOWED_HOSTS=[‘*’]
 
 [阿里云Centos7一步一步搭建FastDFS和部署Nginx](https://blog.csdn.net/busishenren/article/details/83584885)
 
-[阿里云centos7开启端口](https://www.cnblogs.com/heqiuyong/p/10460150.html)
+[阿里云centos7开放端口](https://www.cnblogs.com/heqiuyong/p/10460150.html)
 
 [xadmin使用admin的save_model功能](https://blog.csdn.net/qq_35531549/article/details/86609258)
 
@@ -111,7 +113,7 @@ ALLOWED_HOSTS=[‘*’]
 5. 考虑到服务器的内存可能不够存储静态资源，所以采用了FDFS存储静态资源
 6.  将首页，详情页面，列表页等所有用户都能看到的界面在第一次访问之后静态化，以减少数据库的操作
 7. 搜索功能采用了haystack全文检索框架来使用whoosh搜索引擎，在搜索的时候使用jieba分词，能使得搜索更全面和准确
-8.  订单并发使用了乐观锁来解决并发问题
+8.  订单解决了并发问题
 9.  支付功能使用支付宝的沙箱环境，可以生成支付后的随机字符串
 
 ##  开发日志
@@ -121,11 +123,11 @@ ALLOWED_HOSTS=[‘*’]
 3. 使用redis作为登陆的缓存、使用Minin的方法来增加地址重定向的问题、完成redis记录浏览历史的功能，在阿里云centos7服务器上部署fdfs（大坑，不仅仅控制台要加防火墙规则，内部还要开启端口并且重启防火墙才能生效，改了一下午），并且所有资源都使用fdfs使用文件部署
 4. 使用了celery异步缓存首页文件，并且发现在windows上写文件默认的编码是gbk，所以在win10上部署的时候一定要encoding='utf-8'
 5. 继承admin有一个save_model方法，如果管理员修改了数据那么就重新定义一次缓存，但因为我这里用的是xadmin，所以不能继承admin的方法，就不能实时修改缓存。然后我想了一个临时解决的办法，在goods的views.py里面判断两次context的值是否相等，如果不相等那么就是后台修改了数据。完成商城的详情、列表页。完成搜索功能。
-6. 完成支付宝沙箱环境支付，文档会留在doc文件夹内，沙箱环境的appid不在代码上提供，使用者可以自己申请、使用uwsgi上线网站
+6. 完成支付宝沙箱环境支付，文档会留在doc文件夹内，(沙箱环境的代码不在这里上提供，使用者可以自己申请)、使用uwsgi上线网站
 
 ## 开发总结
 
-​	这个项目是我看完视频后自己重新写的一个项目，重写了大部分逻辑，这个项目内部逻辑很简单，但是前端方面相比较就难了。这个项目前端页面不利于二次开发，也不好看，所以我打算重构一个全新的前端和移动端作为一个完整的项目。
+​	这个项目是我看完视频后自己重新写的一个项目，重写了大部分逻辑，这个项目内部逻辑很简单，但是前端方面相比较就难了。这个项目前端页面不利于二次开发，也不好看，所以我打算用Vue重构一个全新的前端和移动端作为一个完整的项目作为第二个版本。
 
 ​	这个项目我重写了大部分逻辑，还留下一些小Bug，因为最近没什么时间改进这个项目，所以先留下一个坑，等我有空了再去改
 
